@@ -1,0 +1,19 @@
+page:
+  title: "Hearth & Raven"
+  description: "Tea, tales, and tradition from the Appalachian Hollow"
+  css: /styles/appalachian.css
+  author: "Raven & Rook"
+
+theme:
+  typography: serif
+  colors:
+    light: "#f3ecd9"
+    dark: "#4e4436"
+
+links:
+  - text: Home
+    link: /
+  - text: Blog
+    link: /blog
+  - text: About
+    link: /about

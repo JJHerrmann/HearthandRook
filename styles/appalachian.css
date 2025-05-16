@@ -1,0 +1,33 @@
+body {
+  background-color: #4e4436;
+  background-image: url('/images/wood-texture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'EB Garamond', serif;
+  color: #f2e9d8;
+}
+
+h1, h2, h3 {
+  color: #e3d8c5;
+  font-family: 'EB Garamond', serif;
+}
+
+nav a {
+  color: #dbc4a1;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem;
+  background: rgba(0,0,0,0.25);
+  border: 2px solid #a28c6a;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 800px;
+}
