@@ -1,4 +1,4 @@
-yadda yadda yadda profile about Hermes
+yadda yadda yadda profile about Hermes and stuff
 
 ## Related Ceremonial Ingredients
 - [[Lemon Zest]]
