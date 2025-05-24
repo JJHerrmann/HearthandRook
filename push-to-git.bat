@@ -8,7 +8,7 @@ echo Staging complete.
 
 set /p commitmsg="Enter commit message: "
 git commit -m "%commitmsg%"
-git push origin main
+git push origin v4
 
 echo Push complete. Press any key to exit.
 pause >nul
