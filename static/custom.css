@@ -1,0 +1,100 @@
+/*
+  Hearth and Rook: Smoky Mountain Folk Theme
+  Color Palette:
+  - Haint Blue: #A8DADC
+  - Claybank Ochre: #DDA55A
+*/
+
+:root {
+  --haint-blue: #A8DADC;
+  --claybank-ochre: #DDA55A;
+  --text-main: #2A2A2A;
+  --text-muted: #4E4E4E;
+  --background: #F9F9F6;
+  --background-alt: #E4E4E0;
+  --accent-dark: #873F2D; /* Optional: rhododendron brown */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-main);
+  font-family: 'EB Garamond', serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--haint-blue);
+  color: var(--text-main);
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 4px solid var(--claybank-ochre);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--accent-dark);
+  font-weight: bold;
+}
+
+a {
+  color: var(--claybank-ochre);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}
+
+nav {
+  background-color: var(--background-alt);
+  border-left: 4px solid var(--haint-blue);
+  padding: 1rem;
+}
+
+nav a {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  color: var(--accent-dark);
+}
+
+main {
+  max-width: 720px;
+  margin: auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  background-color: var(--haint-blue);
+  color: var(--text-muted);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 4px solid var(--claybank-ochre);
+}
+
+.button, button {
+  background-color: var(--claybank-ochre);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.button:hover, button:hover {
+  background-color: var(--accent-dark);
+}
+
+blockquote {
+  background-color: var(--background-alt);
+  border-left: 5px solid var(--claybank-ochre);
+  margin: 1rem 0;
+  padding: 1rem;
+  font-style: italic;
+  color: var(--text-muted);
+}

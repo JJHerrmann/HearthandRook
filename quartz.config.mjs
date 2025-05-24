@@ -1,6 +1,7 @@
 import { defineConfig } from "./src/utils/defineConfig";
 
 export default defineConfig({
-  contentDir: "../HearthandRook/content",   // wherever your Obsidian .mds live
-  outputDir: "../HearthandRook/docs",       // where the HTML should go
+  contentDir: "content",
+  outputDir: "public",
+  css: ["/static/custom.css"],  // Correct: this is URL path from the site root
 });
