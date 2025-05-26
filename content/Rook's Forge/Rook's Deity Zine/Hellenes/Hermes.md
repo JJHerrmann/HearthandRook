@@ -5,10 +5,10 @@ yadda yadda yadda profile about Hermes and stuff
 - [[Mint]]
 - [[Sage]]
 - [[Rosemary]]
-- [[Lavendar]]
+- [[Lavender]]
 
 ### Related Pantheon
-- [[Olympians]]
+- [[Olympians ]]
 
 ### Related Deities
 - [[Thoth]]
