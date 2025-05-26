@@ -1,0 +1,21 @@
+
+// layouts/HeroLayout.tsx
+
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+
+export default (() => {
+  return ({ fileData, cfg }: QuartzComponentProps) => {
+    const { frontmatter } = fileData
+    const title = frontmatter?.title ?? "Welcome to the Hearth"
+    const subtitle = frontmatter?.description ?? "A cottage in the digital woods, where lore meets ritual."
+
+    return (
+      <div class="hero-layout">
+        <img src="/img/banner.png" alt="Hearth and Rook banner" class="hero-banner" />
+        <h1>{title}</h1>
+        <p class="hero-subtitle">{subtitle}</p>
+        <a class="button" href="/Codex_Dei/">Enter the Codex Dei</a>
+      </div>
+    )
+  }
+}) satisfies QuartzComponentConstructor
