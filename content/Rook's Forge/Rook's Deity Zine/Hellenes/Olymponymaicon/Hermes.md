@@ -8,8 +8,7 @@ yadda yadda yadda profile about Hermes and stuff
 - [[Lavender]]
 
 ### Related Pantheon
-- [[Olympians ]]
-
+-[[Olymponymaicon|Olympians]]
 ### Related Deities
 - [[Thoth]]
 - [[Odin]]

@@ -7,3 +7,16 @@ symbols: [lightning bolt, eagle, oak tree]
 domains: [sky, thunder, kingship, law]
 primary_texts: [Theogony, Iliad, Homeric Hymns]
 ---
+## Related Ceremonial Ingredients
+- [[Lemon Zest]]
+- [[Mint]]
+- [[Sage]]
+- [[Rosemary]]
+- [[Lavender]]
+
+### Related Pantheon
+-[[Olymponymaicon|Olympians]]
+### Related Deities
+- [[Thoth]]
+- [[Odin]]
+- [[Mercury]]
