@@ -1,34 +1,39 @@
 @echo off
 cd /d %~dp0
-echo ============================
-echo 🔁 Switching to project directory...
-echo ============================
+echo === Switching to project directory ===
+echo.
 
 git status
+IF %ERRORLEVEL% NEQ 0 (
+    echo [ERROR] Git status failed.
+    goto end
+)
+
 echo.
 git add .
-echo ✅ Staging complete.
+IF %ERRORLEVEL% NEQ 0 (
+    echo [ERROR] Git add failed.
+    goto end
+)
+echo [OK] Staging complete.
 
-set /p commitmsg="📝 Enter commit message: "
+set /p commitmsg="Enter commit message: "
 git commit -m "%commitmsg%"
+IF %ERRORLEVEL% NEQ 0 (
+    echo [ERROR] Git commit failed.
+    goto end
+)
+
 git push origin v4
-
-echo ✅ Push complete.
-
-echo.
-echo ============================
-echo 🧹 Running quartz clean...
-echo ============================
-npx quartz clean
+IF %ERRORLEVEL% NEQ 0 (
+    echo [ERROR] Git push failed.
+    goto end
+)
 
 echo.
-echo ============================
-echo 🔨 Building site with quartz...
-echo ============================
-npx quartz build
+echo === Push complete. ===
 
+:end
 echo.
-echo ============================
-echo 🧙 Done. Press any key to exit.
-echo ============================
+echo Press any key to exit.
 pause >nul
