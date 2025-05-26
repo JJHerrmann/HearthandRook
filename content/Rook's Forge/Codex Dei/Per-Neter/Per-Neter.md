@@ -8,8 +8,8 @@ description: A placeholder description for Per-Neter.
 Enter the sacred precinct of the Neteru — divine principles in flesh and form. This map guides you through the core deities of the Kemetian tradition.
 
 ## 🌞 Ennead of Heliopolis (Primary Nine)
-- [[content/Rook's Forge/Rook's Deity Zine/Per-Neter/Atum|Atum – The Self-Created One]]
-- [[content/Rook's Forge/Rook's Deity Zine/Per-Neter/Shu|Shu – Air and Separation]]
+- [[Atum|Atum – The Self-Created One]]
+- [[Shu|Shu – Air and Separation]]
 - [[content/Rook's Forge/Rook's Deity Zine/Per-Neter/Tefnut|Tefnut – Moisture and Balance]]
 - [[content/Rook's Forge/Rook's Deity Zine/Per-Neter/Geb|Geb – Earth Father]]
 - [[content/Rook's Forge/Rook's Deity Zine/Per-Neter/Nut|Nut – Starry Sky Mother]]
@@ -38,7 +38,7 @@ Enter the sacred precinct of the Neteru — divine principles in flesh and form.
 - [[Rituals/Ritual_List]]
 - [[Offerings_Log]]
 - [[Kemetian Holidays Calendar]]
-- [[content/Rook's Forge/Rook's Deity Zine/Index| Index]]
+- [[content/Rook's Forge/Codex Dei/Index|Index]]
 
 ---
 
