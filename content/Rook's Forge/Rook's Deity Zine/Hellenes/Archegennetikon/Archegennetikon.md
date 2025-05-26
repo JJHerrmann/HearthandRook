@@ -1,3 +1,8 @@
+---
+title: Archegennetikon
+description: A placeholder description for Archegennetikon.
+---
+
 # Archegennetikon: The Primordial Deities
 
 Before the Titans. Before the Olympians. There were the first echoes — chaos, void, night, time. The *Archegennetikon* catalogs the origins of being, force, and fate.
@@ -33,7 +38,7 @@ Before the Titans. Before the Olympians. There were the first echoes — chaos, 
 - [[Chthonomikon]]
 - [[Symbols_and_Signs]]
 - [[Rituals/Ritual_List]]
-- [[Index]]
+- [[docs/index]]
 
 ---
 

@@ -1,3 +1,8 @@
+---
+title: Lemon Zest
+description: A placeholder description for Lemon Zest.
+---
+
 ### **🔮 [[Lemon Zest]]**
 
 _Brightening the Body, Clearing the Mind, Sharpening the Spell_

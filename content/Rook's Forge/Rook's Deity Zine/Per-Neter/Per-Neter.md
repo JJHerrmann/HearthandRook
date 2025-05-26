@@ -1,3 +1,8 @@
+---
+title: Per-Neter
+description: A placeholder description for Per-Neter.
+---
+
 # Per-Neter: The Egyptian Pantheon
 
 Enter the sacred precinct of the Neteru — divine principles in flesh and form. This map guides you through the core deities of the Kemetian tradition.

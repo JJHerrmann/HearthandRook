@@ -1,7 +1,7 @@
-import { QuartzComponentConstructor } from "../quartz/components/types"
+import { QuartzComponentConstructor } from "./types"
 
 const Head: QuartzComponentConstructor = () => {
-  return (
+  return () => (
     <>
       <link rel="stylesheet" href="/custom.css" />
     </>

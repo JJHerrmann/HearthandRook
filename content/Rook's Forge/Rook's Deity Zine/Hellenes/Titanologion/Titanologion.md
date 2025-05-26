@@ -1,3 +1,8 @@
+---
+title: Titanologion
+description: A placeholder description for Titanologion.
+---
+
 # The Titanologion
 
 The ancient powers before Olympus — the primordial architects, sky-binders, and star-eaters. This is your hub for exploring the lore, lineage, and legacy of the Titans.
@@ -34,4 +39,4 @@ The ancient powers before Olympus — the primordial architects, sky-binders, an
 - [[Myths of the Titanomachy]]
 - [[Symbols_and_Signs]]
 - [[Rituals/Ritual_List]]
-- [[Index]]
+- [[docs/index]]

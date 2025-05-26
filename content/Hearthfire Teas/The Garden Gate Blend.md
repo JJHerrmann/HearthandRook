@@ -1,3 +1,8 @@
+---
+title: The Garden Gate Blend
+description: A placeholder description for The Garden Gate Blend.
+---
+
 #greentea #focus 
 ^greentea
 

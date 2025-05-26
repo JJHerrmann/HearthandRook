@@ -1,3 +1,8 @@
+---
+title: Chthonomikon
+description: A placeholder description for Chthonomikon.
+---
+
 # Chthonomikon: The Powers Below
 
 This is the record of the below. The nameless road, the endless hall, the asphodel fields. The *Chthonomikon* honors those who dwell in the deep: rulers, judges, and shadows who know the truths of death.
@@ -33,7 +38,7 @@ This is the record of the below. The nameless road, the endless hall, the asphod
 - [[Chthonic Offerings Log]]
 - [[Symbols_and_Signs]]
 - [[Archegennetikon]]
-- [[Index]]
+- [[docs/index]]
 
 ---
 

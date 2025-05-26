@@ -1,3 +1,8 @@
+---
+title: Olymponymaicon
+description: A placeholder description for Olymponymaicon.
+---
+
 # The Twelve Olympians
 
 Welcome to the Olymponymaicon — your hub for the twelve major deities of the Greek pantheon. Each link below leads to a full entry detailing their myths, symbols, epithets, rituals, and devotional practices.
@@ -28,7 +33,7 @@ Welcome to the Olymponymaicon — your hub for the twelve major deities of the G
 - [[Offerings_Log]]
 - [[Symbols_and_Signs]]
 - [[Rituals/Ritual_List]]
-- [[Index]]
+- [[docs/index]]
 
 ---
 

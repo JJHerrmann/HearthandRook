@@ -1,3 +1,8 @@
+---
+title: Hermes
+description: A placeholder description for Hermes.
+---
+
 yadda yadda yadda profile about Hermes and stuff
 
 ## Related Ceremonial Ingredients

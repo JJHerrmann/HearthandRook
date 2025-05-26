@@ -154,25 +154,3 @@ pre {
   border-left: 4px solid var(--accent-dark);
   font-family: 'IBM Plex Mono', monospace;
 }
-.hero-layout {
-  text-align: center;
-  padding: 2rem 1rem;
-}
-
-.hero-banner {
-  max-width: 100%;
-  height: auto;
-  border: 6px double var(--claybank-ochre);
-  margin-bottom: 1rem;
-}
-
-.hero-subtitle {
-  font-size: 1.25rem;
-  color: var(--text-muted);
-  margin-bottom: 2rem;
-}
-
-.hero-layout .button {
-  margin-top: 1rem;
-  display: inline-block;
-}

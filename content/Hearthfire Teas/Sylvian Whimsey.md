@@ -1,3 +1,8 @@
+---
+title: Sylvian Whimsey
+description: A placeholder description for Sylvian Whimsey.
+---
+
 A [[Green Tea]] that is blended with the intention of mischief and playful energy
 ![[Pasted image 20250516213612.png]]
 # Base
