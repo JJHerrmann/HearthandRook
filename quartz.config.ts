@@ -17,17 +17,17 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://jjherrmann.github.io/HearthandRook",
+    baseUrl: "https://www.hearthandrook.com/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
-      typography: {
-        header: "Lubaline",
-        body: "FreightText Pro Medium",
-        code: "IBM Plex Mono",
-      },
+typography: {
+  header: "Inter",
+  body: "Inter",
+  code: "Source Code Pro",
+},
       colors: {
         lightMode: {
           light: "#faf8f8",
