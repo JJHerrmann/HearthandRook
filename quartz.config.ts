@@ -8,23 +8,24 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Hearth and Rook ᚲᛒ",
+    pageTitleSuffix: "The Digital Mountain Cabin the the woods, where spellcraft, history, herbology, and nerdcore meet",
     enableSPA: true,
     enablePopovers: true,
+    output: "public",
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://jjherrmann.github.io/HearthandRook",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Lubaline",
+        body: "FreightText Pro Medium",
         code: "IBM Plex Mono",
       },
       colors: {
