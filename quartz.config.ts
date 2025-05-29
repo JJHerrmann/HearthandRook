@@ -12,7 +12,6 @@ const config: QuartzConfig = {
     pageTitleSuffix: "The Digital Mountain Cabin the the woods, where spellcraft, history, herbology, and nerdcore meet",
     enableSPA: true,
     enablePopovers: true,
-    output: "public",
     analytics: {
       provider: "plausible",
     },
