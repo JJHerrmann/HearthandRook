@@ -5,7 +5,7 @@ import { QuartzEmitterPlugin } from "../types"
 import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
-import styles from "../../styles/global.scss"
+import styles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
 import { BuildCtx } from "../../util/ctx"
 import { QuartzComponent } from "../../components/types"
@@ -159,14 +159,10 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       posthog.init('${cfg.analytics.apiKey}', {
         api_host: '${cfg.analytics.host ?? "https://app.posthog.com"}',
         capture_pageview: false,
-      })\`
-      posthogScript.onload = () => {
+      });
+      document.addEventListener('nav', () => {
         posthog.capture('$pageview', { path: location.pathname });
-      
-        document.addEventListener('nav', () => {
-          posthog.capture('$pageview', { path: location.pathname });
-        });
-      };
+      })\`
 
       document.head.appendChild(posthogScript);
     `)
@@ -277,7 +273,7 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         ctx.cfg.configuration.theme,
         googleFontsStyleSheet,
         ...componentResources.css,
-        //styles,
+        styles,
       )
 
       const [prescript, postscript] = await Promise.all([
