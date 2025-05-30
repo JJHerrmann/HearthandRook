@@ -1,0 +1,70 @@
+.marketing-hero-layout {
+  .hero-section {
+    background: url('/images/hero-bg.webp') no-repeat center center;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: #fff;
+
+    .hero-title {
+      font-family: "lubaline", sans-serif;
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+      font-family: "freight-text-pro", serif;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero-cta {
+      margin: 0 1rem;
+      font-size: 1.2rem;
+      background: #DDA55A;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      color: #000;
+      text-decoration: none;
+
+      &.secondary {
+        background: #A8DADC;
+      }
+    }
+  }
+
+  .featured-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    justify-content: center;
+
+    .card {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 300px;
+      text-align: left;
+      text-decoration: none;
+      color: #333;
+
+      &:hover {
+        border-color: #DDA55A;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        font-family: "lubaline", sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-family: "freight-text-pro", serif;
+        font-size: 1rem;
+      }
+    }
+  }
+}

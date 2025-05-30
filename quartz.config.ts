@@ -1,20 +1,17 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { MarketingHeroLayout } from "./quartz/layouts/MarketingHeroLayout"
+import "./quartz/marketing.scss"
 
-/**
- * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
- */
+// *** FIXED: Removed alias import and components block. Only register layout via Plugin.ComponentLayout ***
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Hearth and Rook ᚲᛒ",
-    pageTitleSuffix: "The Digital Mountain Cabin the the woods, where spellcraft, history, herbology, and nerdcore meet",
+    pageTitleSuffix: "The Digital Mountain Cabin in the woods, where spellcraft, history, herbology, and nerdcore meet",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: "plausible" },
     locale: "en-US",
     baseUrl: "https://www.hearthandrook.com/",
     ignorePatterns: ["private", "templates", ".obsidian"],
@@ -22,11 +19,11 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
-typography: {
-  header: "Inter",
-  body: "Inter",
-  code: "Source Code Pro",
-},
+      typography: {
+        header: "Inter",
+        body: "Inter",
+        code: "Source Code Pro",
+      },
       colors: {
         lightMode: {
           light: "#faf8f8",
@@ -88,10 +85,14 @@ typography: {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
+      // *** FIXED: Register your custom layout here ***
+      Plugin.ComponentLayout({
+        MarketingHeroLayout: MarketingHeroLayout
+      }),
     ],
-  },
+    // *** FIXED: Removed unsupported "components" block ***
+  }
 }
 
 export default config

@@ -1,0 +1,19 @@
+import { QuartzComponentProps } from "../types"
+import { pathToRoot } from "../util/path"
+
+export const Card = ({ file }: QuartzComponentProps) => {
+  if (!file) return null // Defensive: bail if file is missing
+
+  const title = file.frontmatter?.title || file.slug || ""
+  const description = file.frontmatter?.description || ""
+  const link = file.slug ? pathToRoot(file.slug) : "#"
+
+  return (
+    <a className="card" href={link}>
+      <div className="card-content">
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </div>
+    </a>
+  )
+}

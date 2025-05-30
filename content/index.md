@@ -1,8 +1,10 @@
 ---
 title: Hearth & Rook
 description: A cottage in the digital woods, where lore meets ritual.
-layout: HeroLayout
-tags: [homepage, featured]
+layout: MarketingHeroLayout
+tags:
+  - homepage
+  - featured
 ---
 
 # Welcome to the Hearth
@@ -15,10 +17,10 @@ We are a digital grimoire of bindrunes, spellwork, teas, and tools—steeped in 
 
 ## 🪶 Start Your Journey
 
-- 🕯 [Enter the Codex Dei](../Rook's Forge/Codex Dei/Index)
-- 🍵 [Visit Raven’s Kitchen](../Raven's Kitchen/index)
-- 🔮 [Explore Ritual Templates](../Rituals/Ritual_List)
-- ✍️ [Read the Zine](../Rook's Forge/Rook's Deity Zine/Hellenes/Olymponymaicon)
+- 🕯 [[Codex Dei | Enter the Codex Dei]]
+- - 🍵 [[kitchen | Visit Raven’s Kitchen]]
+- 🔮 [[forge | Stoke the Forge]]
+- ✍️ [[zine | Check out our Zines]]
 
 ---
 
@@ -41,7 +43,7 @@ Think of it like a southern Gothic library run by a kitchen witch and a chaos en
 
 ## 🛠 Want to Help?
 
-We’re always brewing more—[contact us](mailto:your@email.com) or [support on Ko-Fi](https://ko-fi.com/yourlink).
+We’re always brewing more—[contact us](mailto:hearthandrook@gmail.com) or [support on Ko-Fi](https://ko-fi.com/hearthandrook).
 
 ---
 <table>

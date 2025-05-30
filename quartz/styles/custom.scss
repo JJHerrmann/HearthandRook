@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/hji7pxt.css");
 /*
   Hearth & Rook Quartz Theme — Smoky Mountain Folk Maximalist
   Fonts: Lubaline (header), FreightText Pro (body)
@@ -6,19 +7,61 @@
     - Claybank Ochre: #DDA55A
     - Accent Dark: #873F2D
 */
+/*
+  ====================================================
+  🗂️  Hearth & Rook Typekit Font Manifest
+  (Loaded from https://use.typekit.net/hji7pxt.css)
+  ====================================================
+
+  freight-text-pro
+    - Normal 400    → serif body text
+    - Italic 400    → italic body/quotes
+    - Normal 700    → bold text
+    - Italic 700    → bold italic
+
+  freighttextcmp-pro
+    - Normal 400    → compact body alt
+    - Italic 400    → compact italic
+    - Normal 700    → compact bold
+    - Italic 700    → compact bold italic
+
+  lubaline
+    - Normal 400    → stylized header font
+
+  lubaline-light-tile-solo
+    - Light 300     → alt heading or display use
+
+  lubaline-regular-shadow-solo
+    - Normal 400    → decorative shadow variant
+
+  lubaline-regular-shine
+    - Normal 400    → decorative "shine" variant
+
+  .tk-classes available for manual application:
+    .tk-freight-text-pro
+    .tk-freighttextcmp-pro
+    .tk-lubaline
+    .tk-lubaline-regular-shine
+    .tk-lubaline-light-tile-solo
+    .tk-lubaline-regular-shadow-solo
+
+  Tip:
+    Use these in `font-family` as fallbacks:
+      font-family: "freight-text-pro", serif;
+      font-family: "lubaline", sans-serif;
+
+    Or apply `.tk-` classes in HTML directly:
+      <div class="tk-lubaline">Fancy Title</div>
+*/
+
 
 @font-face {
-  font-family: "Lubaline";
-  src: url("/fonts/Lubaline.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
+font-family: "lubaline", sans-serif;
 }
 
 @font-face {
-  font-family: "FreightText Pro";
-  src: url("/fonts/FreightTextPro.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
+ font-family: "freight-text-pro", sans-serif;
+
 }
 
 :root {
