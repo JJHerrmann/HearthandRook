@@ -1,12 +1,14 @@
 import { QuartzComponentProps } from "../types"
-import { pathToRoot } from "../util/path"
+import { FullSlug, resolveRelative } from "../util/path"
 
 export const Card = ({ file }: QuartzComponentProps) => {
   if (!file) return null // Defensive: bail if file is missing
 
   const title = file.frontmatter?.title || file.slug || ""
   const description = file.frontmatter?.description || ""
-  const link = file.slug ? pathToRoot(file.slug) : "#"
+  const link = file.slug
+    ? resolveRelative("index" as FullSlug, file.slug as FullSlug)
+    : "#"
 
   return (
     <a className="card" href={link}>
