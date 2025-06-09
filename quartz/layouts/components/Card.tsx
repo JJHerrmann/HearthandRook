@@ -1,10 +1,10 @@
 import { QuartzComponentProps } from "../../types"
-import { pathToRoot } from "../../util/path"
+import { FullSlug, resolveRelative } from "../../util/path"
 
 export const Card = ({ file }: QuartzComponentProps) => {
   const title = file.frontmatter?.title || file.slug
   const description = file.frontmatter?.description || ""
-  const link = pathToRoot(file.slug)
+  const link = resolveRelative("index" as FullSlug, file.slug as FullSlug)
   return (
     <a class="card" href={link}>
       <div class="card-content">
